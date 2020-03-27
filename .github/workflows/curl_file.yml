@@ -24,7 +24,7 @@ jobs:
     - name: Get file
       run: |
         curl -O http://samplecsvs.s3.amazonaws.com/Sacramentorealestatetransactions.csv > file.csv,
-        echo 'obained file.csv'
+        echo "obained file.csv"
             - name: nex step - print file
     - name: Print file
       run: |
