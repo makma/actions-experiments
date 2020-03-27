@@ -23,11 +23,11 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Get file
       run: |
-        curl ${{ secrets.URL }} -o  a.csv,
-        echo "obained a.csv",
-        echo "next step - print file".
+        curl ${{ secrets.URL }} -o  a.csv
+        echo "obained a.csv"
+        echo "next step - print file"
     - name: Print file
       run: |
-        pwd,
-        ls,
-        cat a.csv.
+        pwd
+        ls
+        cat a.csv
